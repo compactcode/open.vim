@@ -1,6 +1,6 @@
 # open.vim
 
-A simple vim plugin that adds a tiny bit of smarts when opening files.
+A simple vim plugin that adds a bit of smarts when opening files.
 
 ## Usage
 

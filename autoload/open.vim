@@ -19,7 +19,7 @@ endfunction
 " =============================================================================
 
 function s:OpenUsing(path, command)
-  if len(a:path) > 0
+  if a:path > string(0)
     let path_buffer = bufnr(a:path)
     let path_window = bufwinnr(a:path)
     if path_window > 0
